@@ -12,7 +12,7 @@ export let config: Config = {
     //specs: ['testspec.js'],
     specs: ['../features/first.feature'],
     cucumberOpts: {
-        //tags: "@angulartesting",
+       // tags: "@angulartesting",
         format: 'json:./cucumberreport.json',
         onComplete: () => {
 
